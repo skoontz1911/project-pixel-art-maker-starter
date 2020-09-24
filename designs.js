@@ -8,8 +8,8 @@ $('#sizePicker').submit(function (event) {
 	  height = $('#inputHeight').val();
 	  width = $('#inputWidth').val();
 	  makeGrid(height, width);
-	  console.log('Height: ' + height + 'and width: ' + width);
-}   
+	  console.log('Height: ' + height + ' and width: ' + width);
+})   
 function makeGrid() {
 
 // Your code goes here!
